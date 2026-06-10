@@ -1,0 +1,39 @@
+# 禁漫天堂 Quantumult X 分流规则
+# 更新时间：2026-06-10
+# 用途：命中规则走「禁漫天堂」策略组（排除日本/韩国节点）
+# GitHub 使用方式：
+#   filter_remote 填写本文件 raw 链接，tag=禁漫天堂，force-policy=禁漫天堂
+
+# ======= 主站域名 =======
+HOST-SUFFIX,jmcomic.me,禁漫天堂
+HOST-SUFFIX,jmcomic1.me,禁漫天堂
+HOST-SUFFIX,jmcomic2.me,禁漫天堂
+HOST-SUFFIX,18comic.vip,禁漫天堂
+HOST-SUFFIX,18comic.org,禁漫天堂
+HOST-SUFFIX,18comic.fun,禁漫天堂
+HOST-SUFFIX,18comic.life,禁漫天堂
+HOST-SUFFIX,jmcomic.cc,禁漫天堂
+HOST-SUFFIX,jmcomic.app,禁漫天堂
+HOST-SUFFIX,jmcomic.pro,禁漫天堂
+HOST-SUFFIX,jmcomic.xyz,禁漫天堂
+HOST-SUFFIX,jmcomic.club,禁漫天堂
+HOST-SUFFIX,jm-comic.org,禁漫天堂
+HOST-SUFFIX,jmcomic.ink,禁漫天堂
+HOST-SUFFIX,jmcomic.online,禁漫天堂
+HOST-SUFFIX,jmcomic.today,禁漫天堂
+HOST-SUFFIX,jmcomic.wiki,禁漫天堂
+HOST-SUFFIX,jmcomic.art,禁漫天堂
+
+# ======= CDN / 图片资源域名 =======
+HOST-SUFFIX,cdn-msp.jmcomic.me,禁漫天堂
+HOST-SUFFIX,cdn-msp.18comic.vip,禁漫天堂
+HOST-SUFFIX,cdn-msp2.jmcomic.me,禁漫天堂
+HOST-SUFFIX,cdn-static.jmcomic.me,禁漫天堂
+HOST-SUFFIX,img-msp.jmcomic.me,禁漫天堂
+HOST-SUFFIX,img.jmcomic.me,禁漫天堂
+HOST-SUFFIX,img.18comic.vip,禁漫天堂
+HOST-SUFFIX,static.jmcomic.me,禁漫天堂
+
+# ======= 兜底关键字（覆盖未来新域名）=======
+HOST-KEYWORD,jmcomic,禁漫天堂
+HOST-KEYWORD,18comic,禁漫天堂
